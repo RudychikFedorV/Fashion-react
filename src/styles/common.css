@@ -1,8 +1,10 @@
 :root {
     --textColor: #000;
     --yellow: #EBD96B;
+    --white: #fff;
     --gray: #7f7f7f;
     --color-sign: #fefefe; 
+    --background-promo: #f4f6f5;
 }
 body {
   font-family: "Poppins", sans-serif;
