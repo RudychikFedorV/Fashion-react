@@ -1,10 +1,10 @@
 import React from "react";
-import logoImg from './../../img/icons/logo.svg';
+import logoImg from "./../../img/icons/logo.svg";
 import "./header.css";
 
 const Header = () => {
   return (
-    <div className="header">
+    <header className="header">
       <div className="container">
         <div className="header-row">
           <div className="header-logo">
@@ -13,16 +13,28 @@ const Header = () => {
           </div>
           <nav className="header-nav">
             <ul>
-                <li><a href="#!">CATALOGUE</a></li>
-                <li><a href="#!">FASHION</a></li>
-                <li><a href="#!">FAVOURITE</a></li>
-                <li><a href="#!">LIFESTYLE</a></li>
-                <li><a href="#!" className="header-nav__btn">SIGN UP</a></li>
+              <li>
+                <a href="#!">CATALOGUE</a>
+              </li>
+              <li>
+                <a href="#!">FASHION</a>
+              </li>
+              <li>
+                <a href="#!">FAVOURITE</a>
+              </li>
+              <li>
+                <a href="#!">LIFESTYLE</a>
+              </li>
+              <li>
+                <a href="#!" className="header-nav__btn">
+                  SIGN UP
+                </a>
+              </li>
             </ul>
           </nav>
         </div>
       </div>
-    </div>
+    </header>
   );
 };
 
