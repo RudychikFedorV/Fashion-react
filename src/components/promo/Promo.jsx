@@ -1,4 +1,5 @@
 import React from "react";
+import Btn from "../ui/Btn";
 import promoImg from "./../../img/images/header-img.jpg";
 import "./promo.css";
 
@@ -22,9 +23,7 @@ const Promo = () => {
               Live for Influential and Innovative fashion!
             </div>
             <div className="promo__btn-wrapper">
-              <a href="#!" className="promo__btn">
-                Shop Now
-              </a>
+              <Btn />
             </div>
           </div>
           <div className="promo__img">

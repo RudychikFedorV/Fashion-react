@@ -1,0 +1,15 @@
+.promo__btn {
+  font-weight: 500;
+  font-size: 30px;
+  letter-spacing: -0.05em;
+  color: var(--white);
+
+  padding: 19px 40px;
+  background: var(--textColor);
+  border-radius: 10px;
+  transition: 0.5s all ease-in-out;
+}
+.promo__btn:hover {
+  color: var(--textColor);
+  background: var(--white);
+}

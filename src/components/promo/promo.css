@@ -39,17 +39,7 @@
   height: 32px;
   background-image: url("./../../img/icons/decor-yellow.svg");
 }
-.promo__btn {
-  font-family: var(--font-family);
-  font-weight: 500;
-  font-size: 30px;
-  letter-spacing: -0.05em;
-  color: var(--white);
 
-  padding: 19px 40px;
-  background: var(--textColor);
-  border-radius: 10px;
-}
 .highlight {
   position: relative;
   display: inline-block;
