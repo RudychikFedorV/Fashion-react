@@ -5,6 +5,7 @@ import Header from "./components/header/Header";
 import Promo from "./components/promo/Promo";
 import Favourite from "./components/favourite/Favourite";
 import Vouchers from "./components/vouchers/Vouchers";
+import Shopping from "./components/shopping/Shopping";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Payday />
       <Favourite />
       <Vouchers />
+      <Shopping />
     </div>
   );
 }

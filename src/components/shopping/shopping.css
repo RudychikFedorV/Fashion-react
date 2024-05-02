@@ -1,0 +1,63 @@
+.shopping {
+  background: var(--background-shopping);
+  padding: 140px 0 155px;
+  text-align: center;
+}
+.shopping-title {
+  font-weight: 900;
+  font-size: 55px;
+  line-height: 127%;
+  letter-spacing: 0.03em;
+  color: var(--white);
+  margin-bottom: 37px;
+}
+.shopping-desc {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 109%;
+  letter-spacing: 0.03em;
+  color: var(--white);
+  margin-bottom: 49px;
+}
+.shopping-input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-inline: auto;
+  border-radius: 10px;
+  max-width: 574px;
+  background: var(--white);
+  width: 100%;
+  padding: 10px 10px 10px 27px;
+
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 146%;
+  letter-spacing: 0.03em;
+  color: var(--gray);
+}
+.shopping-button {
+  font-weight: 500;
+  font-size: 33px;
+  line-height: 106%;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  color: var(--white);
+
+  padding: 17px 35px;
+  background: var( --textColor);
+  border-radius: 8px;
+  display: inline-block;
+}
+input {
+  width: 100%;
+  border: 0;
+  outline: 0;
+}
+input::placeholder {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 146%;
+  letter-spacing: 0.03em;
+  color: var(--gray);
+}
