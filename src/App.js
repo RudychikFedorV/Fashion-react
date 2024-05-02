@@ -4,6 +4,7 @@ import Brands from "./components/brands/Brands";
 import Header from "./components/header/Header";
 import Promo from "./components/promo/Promo";
 import Favourite from "./components/favourite/Favourite";
+import Vouchers from "./components/vouchers/Vouchers";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Arrivalsm />
       <Payday />
       <Favourite />
+      <Vouchers />
     </div>
   );
 }
