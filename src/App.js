@@ -6,6 +6,7 @@ import Promo from "./components/promo/Promo";
 import Favourite from "./components/favourite/Favourite";
 import Vouchers from "./components/vouchers/Vouchers";
 import Shopping from "./components/shopping/Shopping";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Favourite />
       <Vouchers />
       <Shopping />
+      <Footer />
     </div>
   );
 }
